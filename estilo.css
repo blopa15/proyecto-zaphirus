@@ -61,7 +61,7 @@ header{
         float:left;
         width: calc(20% - 20px) ;
         min-height: 500px;
-        background: rgb(230, 27, 95);
+        background: rgb(21, 163, 161);
         padding: 10px;
     }    
 
@@ -152,6 +152,10 @@ una animacion que dibuja como un aequis */
 
     button:hover div:last-child {
         transform: rotate(-45deg);
+        
+    }
+
+    boton{
         
     }
 /* esta parte sirve para achicar la pagina y el menu quede de forma unida tipo hamburguesa
