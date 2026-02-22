@@ -115,7 +115,7 @@ header{
     }
 /* este buton es para crear el menu tipo hamburguesa y esta creado con 
 una animacion que dibuja como un aequis */
-    button{
+    .menu-hamburguesa{
         display: flex;
         flex-direction: column;
         width: 3rem;
@@ -127,7 +127,7 @@ una animacion que dibuja como un aequis */
         margin-top: 10px;
     }
 
-    button > div {
+    .menu-hamburguesa > div {
         background: black;
         height: 5px;
         width: 80%;
@@ -140,24 +140,22 @@ una animacion que dibuja como un aequis */
     }
    /* Crea el efecto al menu tipo hamburguesa que se forme como una equis
     */
-    button:hover div:first-child {
+    .menu-hamburguesa:hover div:first-child {
         transform: rotate(45deg);
         
     }
 
-    button:hover div:nth-child(2) {
+    .menu-hamburguesa:hover div:nth-child(2) {
         opacity: 0;
              
     }
 
-    button:hover div:last-child {
+    .menu-hamburguesa:hover div:last-child {
         transform: rotate(-45deg);
         
     }
 
-    boton{
-        
-    }
+    
 /* esta parte sirve para achicar la pagina y el menu quede de forma unida tipo hamburguesa
 el .search input es un ejemplo que estaba haciendo el video de youtube de ejemplo */
     @media screen and (max-width: 720px) {
